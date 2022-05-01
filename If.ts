@@ -1,0 +1,1 @@
+type If<T extends boolean, U extends any, K extends any> = T extends true ? U : K
